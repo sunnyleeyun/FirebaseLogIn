@@ -13,6 +13,7 @@
 		048E774B1E657482008AD5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E77491E657482008AD5C0 /* Main.storyboard */; };
 		048E774D1E657482008AD5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E774C1E657482008AD5C0 /* Assets.xcassets */; };
 		048E77501E657482008AD5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E774E1E657482008AD5C0 /* LaunchScreen.storyboard */; };
+		BA592D64A57A2C052AF3371F /* Pods_FirebaseLogIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F2F13C6F5D378CC5E96DAE /* Pods_FirebaseLogIn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		048E774C1E657482008AD5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E774F1E657482008AD5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E77511E657482008AD5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6331A81D36C91D5B62383C69 /* Pods-FirebaseLogIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLogIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseLogIn/Pods-FirebaseLogIn.debug.xcconfig"; sourceTree = "<group>"; };
+		C3F2F13C6F5D378CC5E96DAE /* Pods_FirebaseLogIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseLogIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE742927FF50E3FA7B8D63C3 /* Pods-FirebaseLogIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLogIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseLogIn/Pods-FirebaseLogIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA592D64A57A2C052AF3371F /* Pods_FirebaseLogIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				048E77441E657482008AD5C0 /* FirebaseLogIn */,
 				048E77431E657482008AD5C0 /* Products */,
+				6A755E8F9552B3CD7BC4FCB3 /* Pods */,
+				B8766DCDC4DC23464F5AAF16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = FirebaseLogIn;
 			sourceTree = "<group>";
 		};
+		6A755E8F9552B3CD7BC4FCB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6331A81D36C91D5B62383C69 /* Pods-FirebaseLogIn.debug.xcconfig */,
+				CE742927FF50E3FA7B8D63C3 /* Pods-FirebaseLogIn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8766DCDC4DC23464F5AAF16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F2F13C6F5D378CC5E96DAE /* Pods_FirebaseLogIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048E77541E657482008AD5C0 /* Build configuration list for PBXNativeTarget "FirebaseLogIn" */;
 			buildPhases = (
+				BC43D120F19F1D5196265264 /* [CP] Check Pods Manifest.lock */,
 				048E773E1E657482008AD5C0 /* Sources */,
 				048E773F1E657482008AD5C0 /* Frameworks */,
 				048E77401E657482008AD5C0 /* Resources */,
+				E57FCD5B37FE82AE3DA377A2 /* [CP] Embed Pods Frameworks */,
+				6716EF8C8ED1FD337C97AA4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6716EF8C8ED1FD337C97AA4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseLogIn/Pods-FirebaseLogIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC43D120F19F1D5196265264 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E57FCD5B37FE82AE3DA377A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseLogIn/Pods-FirebaseLogIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		048E773E1E657482008AD5C0 /* Sources */ = {
@@ -263,6 +338,7 @@
 		};
 		048E77551E657482008AD5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6331A81D36C91D5B62383C69 /* Pods-FirebaseLogIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VJGEDW5SA9;
@@ -276,6 +352,7 @@
 		};
 		048E77561E657482008AD5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE742927FF50E3FA7B8D63C3 /* Pods-FirebaseLogIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VJGEDW5SA9;
