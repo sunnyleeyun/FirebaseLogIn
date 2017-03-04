@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		042904571E65C68400115CB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042904561E65C68400115CB1 /* GoogleService-Info.plist */; };
+		0488E2F41E6AD7FB009004F1 /* Confirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E2F31E6AD7FB009004F1 /* Confirm.swift */; };
 		048E77461E657482008AD5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E77451E657482008AD5C0 /* AppDelegate.swift */; };
 		048E77481E657482008AD5C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E77471E657482008AD5C0 /* ViewController.swift */; };
 		048E774B1E657482008AD5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E77491E657482008AD5C0 /* Main.storyboard */; };
 		048E774D1E657482008AD5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E774C1E657482008AD5C0 /* Assets.xcassets */; };
 		048E77501E657482008AD5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E774E1E657482008AD5C0 /* LaunchScreen.storyboard */; };
-		04E79E561E683372001AFC11 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E79E551E683372001AFC11 /* ConfirmViewController.swift */; };
 		BA592D64A57A2C052AF3371F /* Pods_FirebaseLogIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F2F13C6F5D378CC5E96DAE /* Pods_FirebaseLogIn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		042904561E65C68400115CB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0488E2F31E6AD7FB009004F1 /* Confirm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confirm.swift; sourceTree = "<group>"; };
 		048E77421E657482008AD5C0 /* FirebaseLogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseLogIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E77451E657482008AD5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048E77471E657482008AD5C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		048E774F1E657482008AD5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E77511E657482008AD5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E79E541E682784001AFC11 /* FirebaseLogIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseLogIn.entitlements; sourceTree = "<group>"; };
-		04E79E551E683372001AFC11 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		6331A81D36C91D5B62383C69 /* Pods-FirebaseLogIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLogIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseLogIn/Pods-FirebaseLogIn.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F2F13C6F5D378CC5E96DAE /* Pods_FirebaseLogIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseLogIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE742927FF50E3FA7B8D63C3 /* Pods-FirebaseLogIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLogIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseLogIn/Pods-FirebaseLogIn.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 				04E79E541E682784001AFC11 /* FirebaseLogIn.entitlements */,
 				048E77451E657482008AD5C0 /* AppDelegate.swift */,
 				048E77471E657482008AD5C0 /* ViewController.swift */,
+				0488E2F31E6AD7FB009004F1 /* Confirm.swift */,
 				048E77491E657482008AD5C0 /* Main.storyboard */,
-				04E79E551E683372001AFC11 /* ConfirmViewController.swift */,
 				048E774C1E657482008AD5C0 /* Assets.xcassets */,
 				048E774E1E657482008AD5C0 /* LaunchScreen.storyboard */,
 				048E77511E657482008AD5C0 /* Info.plist */,
@@ -226,9 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E79E561E683372001AFC11 /* ConfirmViewController.swift in Sources */,
 				048E77481E657482008AD5C0 /* ViewController.swift in Sources */,
 				048E77461E657482008AD5C0 /* AppDelegate.swift in Sources */,
+				0488E2F41E6AD7FB009004F1 /* Confirm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,17 @@
 //
-//  ConfirmViewController.swift
+//  Confirm.swift
 //  FirebaseLogIn
 //
-//  Created by Mac on 2017/3/2.
+//  Created by Mac on 2017/3/4.
 //  Copyright © 2017年 Mac. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import Firebase
+import FBSDKLoginKit
 
-class ConFirmViewController: UIViewController{
+class Confirm: UIViewController{
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,5 +23,4 @@ class ConFirmViewController: UIViewController{
          logInButton.delegate = self
          */
     }
-
 }

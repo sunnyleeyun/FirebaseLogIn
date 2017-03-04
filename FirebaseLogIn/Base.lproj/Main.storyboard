@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="112.8" y="37.331334332833585"/>
         </scene>
-        <!--Con Firm View Controller-->
+        <!--Confirm-->
         <scene sceneID="ZgI-wL-zDc">
             <objects>
-                <viewController storyboardIdentifier="ConfirmID" id="9KW-Pn-flK" customClass="ConFirmViewController" customModule="FirebaseLogIn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ConfirmID" id="9KW-Pn-flK" customClass="Confirm" customModule="FirebaseLogIn" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Moj-Wn-Miq"/>
                         <viewControllerLayoutGuide type="bottom" id="H8L-Ob-P9f"/>

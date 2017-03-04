@@ -73,7 +73,7 @@ class ViewController: UIViewController{
                 }
                 
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let nextVC = storyboard.instantiateViewController(withIdentifier: "ConfirmID")as! ConfirmViewController
+                let nextVC = storyboard.instantiateViewController(withIdentifier: "ConfirmID")as! Confirm
                 self.present(nextVC,animated:true,completion:nil)
             })
             
